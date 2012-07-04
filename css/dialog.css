@@ -1,0 +1,41 @@
+/* Overwrite jQuery Ui styles */
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 0 !important;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 0 !important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0 !important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 0 !important;
+}
+.ui-widget-overlay {
+    background: repeat scroll 50% 50% #FFFFFF !important;
+    opacity: 0.8 !important;
+}
+.ui-widget-content {
+    background: repeat-x scroll 50% top #FFFFFF !important;
+    /* border: none !important; */
+    color: #333333 !important;
+}
+.bigMap_container_border{ border: 1px solid #CCCCCC !important}
+.ui-widget-header {
+    background: scroll 50% 50% !important;
+    border: none !important;
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+.ui-widget-header .ui-icon{
+    /*background-image:url("../../images/index/popup/ui-icons_000000_256x240.gif") !important;
+    position: absolute;
+    right: 28px;
+    top: 40px; */
+    z-index: 5;
+}
+.ui-state-hover{
+   /* border: none !important;
+    background: none !important; */
+}
